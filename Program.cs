@@ -29,7 +29,6 @@ namespace MainApp
                 multiplicador = 60;
             
             if (tempoUsuario == 0)
-            
                 System.Environment.Exit(0);
             
             start(tempoUsuario * multiplicador);
